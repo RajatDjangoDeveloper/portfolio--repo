@@ -16,7 +16,7 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Inventory Mangement"
+        name="Inventory Mangement1"
         description="Developed a comprehensive Inventory Management System to efficiently track,
                     manage, and maintain records of organizational assets, ensuring accurate asset allocation,
                     real-time updates, seamless reporting, and improved resource utilization."
