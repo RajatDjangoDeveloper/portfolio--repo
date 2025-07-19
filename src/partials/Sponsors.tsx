@@ -19,6 +19,7 @@ const Sponsors = () => (
             >
               <img
                 src={clerkLogo.src}
+                // src='/assets/images/tech-img/aws.png'
                 alt="Clerk – Authentication & User Management for Next.js"
                 width={260}
                 height={224}
