@@ -10,22 +10,53 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Hi there, I'm <GradientText>Rajat</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
+          I'm a backend developer with a passion for building{' '}
           <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
+            scalable
           </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
+          and{' '}
           <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
+            performant systems
           </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          — now expanding my skills into the world of{' '}
+          <a className="text-cyan-400 hover:underline" href="/">
+            Cloud Engineering
+          </a>
+          . With experience in{' '}
+          <a className="text-cyan-400 hover:underline" href="/">
+            Django
+          </a>
+          ,{' '}
+          <a className="text-cyan-400 hover:underline" href="/">
+            Node.js
+          </a>{' '}
+          and modern{' '}
+          <a className="text-cyan-400 hover:underline" href="/">
+            DevOps practices
+          </a>
+            , I enjoy turning ideas into robust APIs and cloud-native applications.
+            I'm always exploring ways to improve developer experience, automate deployments, and optimize infrastructure — from code to cloud.
         </>
       }
+
+      // description={
+      //   <>
+      //     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
+      //     <a className="text-cyan-400 hover:underline" href="/">
+      //       malesuada
+      //     </a>{' '}
+      //     nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
+      //     <a className="text-cyan-400 hover:underline" href="/">
+      //       consectetur
+      //     </a>{' '}
+      //     adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+      //   </>
+      // }
       avatar={
         <img
           className="h-80 w-64"

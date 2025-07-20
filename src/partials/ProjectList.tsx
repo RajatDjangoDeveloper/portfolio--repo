@@ -16,10 +16,10 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Project 1"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
+        name="Inventory Mangement1"
+        description="Developed a comprehensive Inventory Management System to efficiently track,
+                    manage, and maintain records of organizational assets, ensuring accurate asset allocation,
+                    real-time updates, seamless reporting, and improved resource utilization."
         link="/"
         img={{
           src: '/assets/images/project-web-design.png',
@@ -35,10 +35,11 @@ const ProjectList = () => (
         }
       />
       <Project
-        name="Project 2"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
+        name="Career Path Adviser"
+        description="Developed a Career Path Adviser tool that assists users in finding job opportunities
+                    and relevant courses. The system uses third-party APIs to suggest tailored career paths
+                    and learning resources based on user survey responses, with real-time search results 
+                    displayed to the user."
         link="/"
         img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
         category={
