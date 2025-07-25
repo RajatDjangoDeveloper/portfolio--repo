@@ -16,7 +16,7 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Inventory Mangement1"
+        name="Inventory Mangement"
         description="Developed a comprehensive Inventory Management System to efficiently track,
                     manage, and maintain records of organizational assets, ensuring accurate asset allocation,
                     real-time updates, seamless reporting, and improved resource utilization."
@@ -27,10 +27,12 @@ const ProjectList = () => (
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
-            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.ROSE}>Django</Tags>
+            <Tags color={ColorTags.RED}>DRF</Tags>
+            <Tags color={ColorTags.EMERALD}>Python</Tags>
+            <Tags color={ColorTags.FUCHSIA}>JavaScript</Tags>
+            <Tags color={ColorTags.LIME}>HTML</Tags>
+            <Tags color={ColorTags.SKY}>CSS</Tags>
           </>
         }
       />
@@ -44,9 +46,12 @@ const ProjectList = () => (
         img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Blog</Tags>
-            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+            <Tags color={ColorTags.ROSE}>Ruby</Tags>
+            <Tags color={ColorTags.RED}>Ruby on Rails</Tags>
+            <Tags color={ColorTags.VIOLET}>Google API</Tags>
+            <Tags color={ColorTags.SLATE}>JSON</Tags>
+            <Tags color={ColorTags.YELLOW}>API Integration</Tags>
+            <Tags color={ColorTags.LIME}>Backend Development</Tags>
           </>
         }
       />

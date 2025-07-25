@@ -8,7 +8,7 @@ import nextjsBoilerplateLogo from '../../public/assets/images/nextjs-boilerplate
 import sentryLogo from '../../public/assets/images/sentry-white.png';
 
 const Sponsors = () => (
-  <Section title="Sponsors">
+  <Section title="Tech Stack">
     <table className="mx-auto border-collapse">
       <tbody>
         <tr className="h-56">
