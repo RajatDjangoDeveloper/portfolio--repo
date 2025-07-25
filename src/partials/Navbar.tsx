@@ -34,8 +34,8 @@ const Navbar = () => (
 
       <NavMenu>
         <NavMenuItem href="/posts/">Blogs</NavMenuItem>
-        <NavMenuItem href="/">GitHub</NavMenuItem>
-        <NavMenuItem href="/">Twitter</NavMenuItem>
+        <NavMenuItem href="https://github.com/RajatDjangoDeveloper/">GitHub</NavMenuItem>
+        <NavMenuItem href="https://drive.google.com/drive/folders/1-09jAK-qWjS8XcbbSYMWIsmDjEqJF9y9?usp=sharing">Resume</NavMenuItem>
       </NavMenu>
     </NavbarTwoColumns>
   </Section>
